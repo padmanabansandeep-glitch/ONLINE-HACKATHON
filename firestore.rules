@@ -1,0 +1,100 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Helper functions
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+
+    function isOwner(userId) {
+      return isAuthenticated() && request.auth.uid == userId;
+    }
+
+    function isAdmin() {
+      return isAuthenticated() && 
+        (request.auth.token.role == 'admin' || 
+         request.auth.token.email.matches('.*admin.*'));
+    }
+
+    // Checks if the authenticated parent is explicitly authorized to view the student's record
+    function isAuthorizedParent(studentUid) {
+      return isAuthenticated() && 
+        exists(/databases/$(database)/documents/familyLinks/$(studentUid + '_' + request.auth.uid)) &&
+        get(/databases/$(database)/documents/familyLinks/$(studentUid + '_' + request.auth.uid)).data.consentStatus == 'active';
+    }
+
+    // Users Collection
+    match /users/{userId} {
+      allow read: if isAuthenticated();
+      allow write: if isOwner(userId) || isAdmin();
+    }
+
+    // Student Profiles Collection
+    match /studentProfiles/{studentUid} {
+      allow read: if isOwner(studentUid) || isAuthorizedParent(studentUid) || isAdmin();
+      allow create, update: if isOwner(studentUid) || isAdmin();
+      allow delete: if isAdmin();
+    }
+
+    // Assessment Results Collection
+    match /assessments/{assessmentId} {
+      allow read: if isAuthenticated() && 
+        (resource.data.studentUid == request.auth.uid || 
+         isAuthorizedParent(resource.data.studentUid) || 
+         isAdmin());
+      allow create: if isAuthenticated() && request.resource.data.studentUid == request.auth.uid;
+      allow update, delete: if isOwner(resource.data.studentUid) || isAdmin();
+    }
+
+    // Courses Repository (Public read for all, but WRITE is strictly Admin-only)
+    match /courses/{courseId} {
+      allow read: if true; // Publicly readable for students and parents
+      allow write: if isAdmin(); // Strictly admin only
+    }
+
+    // Family Links & Consents Collection
+    match /familyLinks/{linkId} {
+      allow read: if isAuthenticated() && 
+        (resource.data.studentUid == request.auth.uid || 
+         resource.data.parentUid == request.auth.uid || 
+         isAdmin());
+      allow create, update: if isAuthenticated() && 
+        (request.resource.data.studentUid == request.auth.uid || 
+         request.resource.data.parentUid == request.auth.uid);
+      allow delete: if isAuthenticated() && 
+        (resource.data.studentUid == request.auth.uid || isAdmin());
+    }
+
+    // Family Discussions Collection
+    match /familyDiscussions/{discussionId} {
+      allow read, write: if isAuthenticated() && 
+        (resource.data.studentUid == request.auth.uid || 
+         isAuthorizedParent(resource.data.studentUid) || 
+         isAdmin());
+    }
+
+    // Roadmaps Collection
+    match /roadmaps/{roadmapId} {
+      allow read: if isAuthenticated() && 
+        (resource.data.studentUid == request.auth.uid || 
+         isAuthorizedParent(resource.data.studentUid) || 
+         isAdmin());
+      allow write: if isAuthenticated() && 
+        (request.resource.data.studentUid == request.auth.uid || isAdmin());
+    }
+
+    // Chat History Collection
+    match /chatHistory/{chatId} {
+      allow read, write: if isAuthenticated() && 
+        (resource.data.userId == request.auth.uid || isOwner(resource.data.userId));
+    }
+
+    // User Feedback Collection
+    match /feedback/{feedbackId} {
+      allow read: if isAdmin();
+      allow create: if isAuthenticated();
+      allow update, delete: if isAdmin();
+    }
+  }
+}

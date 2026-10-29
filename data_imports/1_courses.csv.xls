@@ -1,0 +1,20 @@
+﻿course_id,course_name,field,description
+C01,Graphic Design & UI/UX,Creative & Design,"Logo, colour palette, UI and visual design work"
+C02,Fashion Design & Garment Making,Creative & Design,"Fashion styling, fabric selection, cutting and boutique tailoring"
+C03,"CAD Drafting, 3D Modelling & Video Editing",Creative & Design,"3D modelling, architectural drafting and video editing"
+C04,"Accounting & Taxation (Tally, GST)",Business & Finance,"Bookkeeping, balance sheets, GST filing and billing software"
+C05,Retail & Entrepreneurship Management,Business & Finance,"Starting and managing a shop, service franchise or trade venture"
+C06,Digital Marketing,Business & Finance,"Social media ads, online customer sales and promotion"
+C07,Automobile Technology,Mechanical & Automotive,"Engine diagnosis, gearboxes and vehicle servicing"
+C08,Electric Vehicle (EV) Technology,Mechanical & Automotive,"EV battery packs, electric motors and charging stations"
+C09,CNC Machining & Mechanical Fitting,Mechanical & Automotive,"Precision parts, CNC cutting and metal assembly"
+C10,Electrician & Domestic Wiring,Electrical & Electronics,"Safe wiring, voltage testing and fixing connections"
+C11,Solar & Renewable Energy Technician,Electrical & Electronics,Solar panel installation and clean power systems
+C12,Electronics & Mobile Phone Repair,Electrical & Electronics,Chip-level repair of smartphone motherboards and circuits
+C13,Computer Applications & Software,IT,"Software, coding and digital screen based work"
+C14,Healthcare Assistant (Patient Care),Healthcare,"Vital signs, patient monitoring and hospital care"
+C15,Medical Laboratory Technology,Healthcare,"Sample testing, microscope analysis and diagnostic reports"
+C16,Biomedical Equipment Technology,Healthcare,Maintaining hospital electronics and medical equipment
+C17,Hydroponics & Greenhouse Technology,Agriculture,Soilless farming and automated greenhouses
+C18,Organic Farming & Agri-Business,Agriculture,Organic cultivation and eco-friendly rural business
+C19,Precision Agriculture (Drone & Sensor Tech),Agriculture,"Drones, drip sensors and automated farm tools"

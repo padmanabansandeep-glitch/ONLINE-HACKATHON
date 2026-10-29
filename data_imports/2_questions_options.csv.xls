@@ -1,0 +1,37 @@
+﻿question_id,question_text,option_id,option_text
+Q1,What is your primary milestone for the next 12 to 24 months?,A,Earn an immediate skill certification and secure a stable entry-level job or apprenticeship
+Q1,What is your primary milestone for the next 12 to 24 months?,B,Acquire hands-on mastery to launch my own local service shop or freelance business
+Q1,What is your primary milestone for the next 12 to 24 months?,C,Use this vocational diploma as a stepping stone to enter 2nd year Polytechnic or a university degree
+Q1,What is your primary milestone for the next 12 to 24 months?,D,Gain practical experience while keeping family educational investment within budget
+Q2,What is your ideal day-to-day work environment?,A,A high-tech computer workstation with high-speed internet and ergonomic setup
+Q2,What is your ideal day-to-day work environment?,B,"An active workshop or industrial facility with tools, testing meters, and safety equipment"
+Q2,What is your ideal day-to-day work environment?,C,"A clean hospital, diagnostic clinic, or community wellness center helping people"
+Q2,What is your ideal day-to-day work environment?,D,"Open outdoors, farms, solar rooftop installations, or flexible fieldwork"
+Q3,How do you learn new skills most effectively?,A,"100% Practical & Hands-on: Touching tools, testing components, and trial-and-error in a workshop"
+Q3,How do you learn new skills most effectively?,B,Interactive digital practice: Following step-by-step video labs on my laptop or mobile
+Q3,How do you learn new skills most effectively?,C,"Balanced approach: Understanding the basic principle first, then immediately applying it on real equipment"
+Q3,How do you learn new skills most effectively?,D,Strictly theoretical textbooks and memorizing concepts for written examinations
+Q4,Which of these creative expressions resonates with your personal talents?,A,"Graphic designing, UI design, color palettes, and creating captivating visual logos"
+Q4,Which of these creative expressions resonates with your personal talents?,B,"Fashion styling, fabric selection, garment cutting, and designer boutique tailoring"
+Q4,Which of these creative expressions resonates with your personal talents?,C,"3D modelling, architectural drafting, or video editing"
+Q4,Which of these creative expressions resonates with your personal talents?,D,"I prefer logical formulas, technical maintenance, or medical tasks over visual design"
+Q5,"How do you feel about accounting, managing shop inventory, and business finance?",A,"Excited: I enjoy numbers, balance sheets, GST filing, and billing software like Tally"
+Q5,"How do you feel about accounting, managing shop inventory, and business finance?",B,"I want to start and manage my own retail shop, service franchise, or trade venture"
+Q5,"How do you feel about accounting, managing shop inventory, and business finance?",C,"Interested in digital marketing, running social media ads, and online customer sales"
+Q5,"How do you feel about accounting, managing shop inventory, and business finance?",D,I prefer working on physical machinery or code rather than accounting ledgers
+Q6,"How excited are you when you look at motorbikes, cars, engines, and Electric Vehicles (EV)?",A,"Thrilled: I want to diagnose modern engines, understand gearboxes, and service vehicles"
+Q6,"How excited are you when you look at motorbikes, cars, engines, and Electric Vehicles (EV)?",B,"Very curious about EV battery packs, electric motors, and smart charging stations"
+Q6,"How excited are you when you look at motorbikes, cars, engines, and Electric Vehicles (EV)?",C,"I like precision mechanical parts, CNC cutting, and assembling metal components"
+Q6,"How excited are you when you look at motorbikes, cars, engines, and Electric Vehicles (EV)?",D,"I enjoy driving, but prefer not to get grease or oil on my hands"
+Q7,"How do you feel about working with wires, electronic circuits, and power systems?",A,"I love measuring voltage, fixing loose connections, and setting up home wiring safely"
+Q7,"How do you feel about working with wires, electronic circuits, and power systems?",B,"I am fascinated by solar panels, renewable energy, and clean power generation"
+Q7,"How do you feel about working with wires, electronic circuits, and power systems?",C,I prefer working on delicate circuits like smartphone motherboards and microchips
+Q7,"How do you feel about working with wires, electronic circuits, and power systems?",D,I prefer software and digital screens over physical electrical hardware
+Q8,"How drawn are you towards healthcare, first aid, and community well-being?",A,"Strongly drawn: I want to monitor patients, check vital signs, and provide compassionate hospital care"
+Q8,"How drawn are you towards healthcare, first aid, and community well-being?",B,"Interested in laboratory testing, microscope sample analysis, and diagnostic reports"
+Q8,"How drawn are you towards healthcare, first aid, and community well-being?",C,I prefer technical machinery or computers rather than clinical patient interaction
+Q8,"How drawn are you towards healthcare, first aid, and community well-being?",D,Open to healthcare only if it involves biomedical equipment and hospital electronics
+Q9,"What is your perspective on sustainable agriculture, plants, and outdoor environmental work?",A,"Enthusiastic: I want to master modern hydroponics, automated greenhouses, and soilless farming"
+Q9,"What is your perspective on sustainable agriculture, plants, and outdoor environmental work?",B,"I love nature, organic crop cultivation, and eco-friendly rural businesses"
+Q9,"What is your perspective on sustainable agriculture, plants, and outdoor environmental work?",C,I like agriculture only if using high-tech tools like drones and automated drip sensors
+Q9,"What is your perspective on sustainable agriculture, plants, and outdoor environmental work?",D,"I strongly prefer indoor, air-conditioned workshops or office settings"

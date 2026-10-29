@@ -1,0 +1,103 @@
+﻿question_id,option_id,course_id,weight,course_name
+Q1,B,C05,1,Retail & Entrepreneurship Management
+Q1,B,C06,1,Digital Marketing
+Q1,B,C07,1,Automobile Technology
+Q1,B,C10,1,Electrician & Domestic Wiring
+Q1,B,C12,1,Electronics & Mobile Phone Repair
+Q1,B,C02,1,Fashion Design & Garment Making
+Q2,A,C13,1,Computer Applications & Software
+Q2,A,C01,1,Graphic Design & UI/UX
+Q2,A,C03,1,"CAD Drafting, 3D Modelling & Video Editing"
+Q2,A,C06,1,Digital Marketing
+Q2,A,C04,1,"Accounting & Taxation (Tally, GST)"
+Q2,B,C07,1,Automobile Technology
+Q2,B,C09,1,CNC Machining & Mechanical Fitting
+Q2,B,C10,1,Electrician & Domestic Wiring
+Q2,B,C08,1,Electric Vehicle (EV) Technology
+Q2,B,C11,1,Solar & Renewable Energy Technician
+Q2,B,C12,1,Electronics & Mobile Phone Repair
+Q2,C,C14,1,Healthcare Assistant (Patient Care)
+Q2,C,C15,1,Medical Laboratory Technology
+Q2,C,C16,1,Biomedical Equipment Technology
+Q2,D,C18,1,Organic Farming & Agri-Business
+Q2,D,C19,1,Precision Agriculture (Drone & Sensor Tech)
+Q2,D,C11,1,Solar & Renewable Energy Technician
+Q2,D,C17,1,Hydroponics & Greenhouse Technology
+Q3,A,C07,1,Automobile Technology
+Q3,A,C08,1,Electric Vehicle (EV) Technology
+Q3,A,C09,1,CNC Machining & Mechanical Fitting
+Q3,A,C10,1,Electrician & Domestic Wiring
+Q3,A,C12,1,Electronics & Mobile Phone Repair
+Q3,A,C02,1,Fashion Design & Garment Making
+Q3,B,C13,1,Computer Applications & Software
+Q3,B,C01,1,Graphic Design & UI/UX
+Q3,B,C03,1,"CAD Drafting, 3D Modelling & Video Editing"
+Q3,B,C06,1,Digital Marketing
+Q3,D,C04,1,"Accounting & Taxation (Tally, GST)"
+Q4,A,C01,4,Graphic Design & UI/UX
+Q4,A,C06,1,Digital Marketing
+Q4,A,C03,1,"CAD Drafting, 3D Modelling & Video Editing"
+Q4,B,C02,4,Fashion Design & Garment Making
+Q4,C,C03,4,"CAD Drafting, 3D Modelling & Video Editing"
+Q4,C,C01,1,Graphic Design & UI/UX
+Q4,D,C09,1,CNC Machining & Mechanical Fitting
+Q4,D,C10,1,Electrician & Domestic Wiring
+Q4,D,C07,1,Automobile Technology
+Q4,D,C14,1,Healthcare Assistant (Patient Care)
+Q4,D,C15,1,Medical Laboratory Technology
+Q4,D,C16,1,Biomedical Equipment Technology
+Q4,D,C04,1,"Accounting & Taxation (Tally, GST)"
+Q5,A,C04,4,"Accounting & Taxation (Tally, GST)"
+Q5,A,C05,1,Retail & Entrepreneurship Management
+Q5,B,C05,4,Retail & Entrepreneurship Management
+Q5,B,C04,1,"Accounting & Taxation (Tally, GST)"
+Q5,C,C06,4,Digital Marketing
+Q5,C,C05,1,Retail & Entrepreneurship Management
+Q5,D,C07,1,Automobile Technology
+Q5,D,C09,1,CNC Machining & Mechanical Fitting
+Q5,D,C10,1,Electrician & Domestic Wiring
+Q5,D,C12,1,Electronics & Mobile Phone Repair
+Q5,D,C13,1,Computer Applications & Software
+Q6,A,C07,4,Automobile Technology
+Q6,A,C09,1,CNC Machining & Mechanical Fitting
+Q6,B,C08,4,Electric Vehicle (EV) Technology
+Q6,B,C11,1,Solar & Renewable Energy Technician
+Q6,B,C10,1,Electrician & Domestic Wiring
+Q6,C,C09,4,CNC Machining & Mechanical Fitting
+Q6,C,C07,1,Automobile Technology
+Q6,D,C13,1,Computer Applications & Software
+Q6,D,C01,1,Graphic Design & UI/UX
+Q6,D,C06,1,Digital Marketing
+Q6,D,C14,1,Healthcare Assistant (Patient Care)
+Q6,D,C04,1,"Accounting & Taxation (Tally, GST)"
+Q7,A,C10,4,Electrician & Domestic Wiring
+Q7,A,C08,1,Electric Vehicle (EV) Technology
+Q7,A,C16,1,Biomedical Equipment Technology
+Q7,B,C11,4,Solar & Renewable Energy Technician
+Q7,B,C08,1,Electric Vehicle (EV) Technology
+Q7,C,C12,4,Electronics & Mobile Phone Repair
+Q7,C,C16,2,Biomedical Equipment Technology
+Q7,D,C13,2,Computer Applications & Software
+Q7,D,C01,1,Graphic Design & UI/UX
+Q7,D,C03,1,"CAD Drafting, 3D Modelling & Video Editing"
+Q7,D,C06,1,Digital Marketing
+Q8,A,C14,4,Healthcare Assistant (Patient Care)
+Q8,B,C15,4,Medical Laboratory Technology
+Q8,B,C16,1,Biomedical Equipment Technology
+Q8,C,C07,1,Automobile Technology
+Q8,C,C09,1,CNC Machining & Mechanical Fitting
+Q8,C,C13,1,Computer Applications & Software
+Q8,C,C10,1,Electrician & Domestic Wiring
+Q8,D,C16,4,Biomedical Equipment Technology
+Q8,D,C12,1,Electronics & Mobile Phone Repair
+Q9,A,C17,4,Hydroponics & Greenhouse Technology
+Q9,A,C19,1,Precision Agriculture (Drone & Sensor Tech)
+Q9,B,C18,4,Organic Farming & Agri-Business
+Q9,B,C17,1,Hydroponics & Greenhouse Technology
+Q9,C,C19,4,Precision Agriculture (Drone & Sensor Tech)
+Q9,C,C17,1,Hydroponics & Greenhouse Technology
+Q9,C,C11,1,Solar & Renewable Energy Technician
+Q9,D,C13,1,Computer Applications & Software
+Q9,D,C04,1,"Accounting & Taxation (Tally, GST)"
+Q9,D,C12,1,Electronics & Mobile Phone Repair
+Q9,D,C01,1,Graphic Design & UI/UX
